@@ -1,0 +1,343 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid wheat;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    font-size: 3rem;
+    color: white;
+}
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+.menu li{
+    float: left;
+    margin: 0px 15px;
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.btn1{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    border: none;
+}
+.home{
+    background-image: url("IMG/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-page{
+    position: absolute;
+    left: 27%;
+    width: 51%;
+    top: 45%;
+    color: white;
+    font-size: 3.5em;
+}
+
+
+/* page 2 */
+.page2{
+    width: 80%;
+    margin: 30px auto;
+}
+.pg2-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text{
+    margin: 30px;
+    width: 300px;
+}
+
+.btn2{
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
+    padding: 15px 17px;
+}
+
+
+/* page 3 */
+.pg3-img-box{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    column-gap: 35px;
+
+}
+.pg3-img{
+    width: 330px;
+    height: 330px;
+    /* display: flex; */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.pg3-img h2{
+    background-color: rgba(169, 169, 169, 0.616);
+    padding: 3px 10px;
+}
+#pg3-img1{
+    background-image: url("IMG/room1.jpg");
+
+}
+#pg3-img2{
+    background-image: url("IMG/room2.jpg");
+
+}
+#pg3-img3{
+    background-image: url("IMG/room3.jpg");
+
+}
+#pg3-img4{
+    background-image: url("IMG/room4.jpg");
+
+}
+#pg3-img5{
+    background-image: url("IMG/room5.jpg");
+
+}
+#pg3-img6{
+    background-image: url("IMG/room6.jpg");
+
+}
+.pg3-txt{
+    width: 70%;
+    margin: auto;
+}
+.pg3-txt h2{
+    font-size: 2.8rem;
+}
+.pg3-txt p{
+    font-size: 1.5rem;
+}
+
+.page4 p{
+    width: 70%;
+    margin: auto;
+    font-size: 2.5rem;
+    padding: 10px 25px;
+    margin-top: 50px;
+}
+
+.head-about{
+    background-image: url("IMG/about.png");
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.contact-head{
+    background-image: url("IMG/38ac287852f99059f66ad520c86f4198.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    font-size: 4rem;
+    color: whitesmoke;
+    text-shadow: 0 0 10px black;
+    padding: 50px;
+}
+.contact{
+   
+    width: 650px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 25px;
+   
+}
+input{
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 7px;
+    background-color: transparent;
+}
+label{
+    font-size: 1.8rem;
+}
+
+.submit {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#337bc4;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    text-shadow: 0px 1px 0px #528ecc;
+    background:linear-gradient(#79bbff, #378de5);
+  }
+  
+  .submit:hover {
+    background: linear-gradient(#378de5, #79bbff);
+  }
+                
+/* footer */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+
+}
+
+.footer {
+    margin-top: 150px;
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
